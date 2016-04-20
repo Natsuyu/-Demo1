@@ -1,0 +1,163 @@
+.col {
+  width: 100%;
+  margin: 1px 0 1px 0;
+  position: relative;
+  text-align: center;
+  background-color: #fff; }
+
+.col {
+  height: 67px; }
+
+.item {
+  width: 33%;
+  float: left;
+  display: inline-block;
+  cursor: pointer; }
+  .item span {
+    display: inline-block;
+    height: 100%;
+    line-height: 66px;
+    box-sizing: border-box; }
+  .item .selected {
+    color: #FF6C44;
+    border-bottom: 2px solid #FF6C44; }
+
+.show {
+  display: block; }
+
+.hide {
+  display: none; }
+
+.coupon {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative; }
+  .coupon .iconfont {
+    font-size: 1.2rem; }
+  .coupon .gq::after {
+    content: url(../image/gq.jpg);
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    right: 70px;
+    z-index: 101; }
+  .coupon .sy::after {
+    content: url(../image/sy.jpg);
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 10px;
+    right: 70px;
+    z-index: 101; }
+  .coupon .box {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    background-color: #FF6C44;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    height: 130px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer; }
+    .coupon .box .cost > span {
+      color: #fff;
+      width: 100px;
+      height: 80px;
+      box-sizing: border-box;
+      position: absolute;
+      top: 50%;
+      margin-top: -40px; }
+    .coupon .box .cost > span:first-child {
+      left: 15px;
+      font-size: 2rem;
+      line-height: 80px; }
+      .coupon .box .cost > span:first-child > span {
+        font-size: 3rem; }
+    .coupon .box .cost > span:last-child {
+      right: 45px;
+      font-size: 0.9rem; }
+      .coupon .box .cost > span:last-child::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background: rgba(255, 255, 255, 0.5);
+        top: 50%;
+        left: 0; }
+      .coupon .box .cost > span:last-child::before {
+        content: ".";
+        text-align: center;
+        line-height: 10px;
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        background-color: #FF6C44;
+        top: 50%;
+        left: 50%;
+        margin-top: -10px;
+        margin-left: -10px;
+        z-index: 100; }
+      .coupon .box .cost > span:last-child span {
+        text-align: center;
+        display: inline-block;
+        height: 50%;
+        float: left;
+        width: 100%;
+        line-height: 40px; }
+    .coupon .box .detail {
+      position: absolute;
+      width: 40px;
+      height: 100%;
+      top: 0;
+      right: 0;
+      line-height: 130px;
+      color: #fff; }
+  .coupon .date {
+    background-color: #FFF;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-top: 0;
+    border-radius: 0 0 10px 10px;
+    font-size: 0.9rem; }
+    .coupon .date .date-head {
+      width: 100%;
+      height: 68px;
+      position: relative;
+      background: url("../image/wen.jpg") repeat-x 0 0; }
+      .coupon .date .date-head span {
+        display: inline-block;
+        height: 100%;
+        line-height: 68px; }
+        .coupon .date .date-head span:first-child {
+          position: absolute;
+          top: 0;
+          left: 20px; }
+        .coupon .date .date-head span:last-child {
+          position: absolute;
+          top: 0;
+          right: 20px; }
+      .coupon .date .date-head #scroll {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 50px;
+        margin-left: -25px;
+        cursor: pointer; }
+      .coupon .date .date-head .rotate {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg); }
+    .coupon .date .de-date {
+      text-align: left;
+      padding: 15px;
+      display: none; }
+
+@media screen and (max-width: 320px) {
+  .coupon .box .cost img {
+    width: 90px;
+    height: 72px; }
+  .coupon .date {
+    font-size: 0.8rem; } }
+
+/*# sourceMappingURL=coupon.css.map */

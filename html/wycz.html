@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我要充值</title>
+	<link rel="stylesheet" type="text/css" href="../style/reset.css">
+	<link rel="stylesheet" type="text/css" href="../style/wycz.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+</head>
+<body>
+<!-- 关于适配的问题：在iphone或者其他屏幕宽度较小的情况下，支付哪里文字过多导致与附近文元素重叠 -->
+	<div class="head"><span id="back" class="back iconfont">&#xe612;</span><span class="title">我要充值</span></div>
+	<div class="content">
+		<div class="lef">
+			<div class="lef-mo"><span>我的余额:</span><span class="money">0.0元</span></div>
+			<div class="cot-item">
+				<span class="item">50元</span>
+				<span class="item">100元</span>
+				<span class="item">150元</span>
+			</div>
+			<input type="text" class="text" placeholder="请输入充值金额（元）">
+		</div>
+		<div class="choz">
+			<div class="title">充值方式</div>
+			<div class="way">
+				<div class="ali" id="ali">
+					<div class="iconfont alipay" style="color:#56abe4;">&#xe666;</div>
+					<div class="ctx">
+						<span>支付宝<i class="iconfont">&#xe60b;</i></span>
+						<span>推荐有支付宝账号用户使用</span>
+					</div>
+					<div class="check chosed iconfont"></div>
+				</div>
+				<div class="wx" id="wx">
+					<div class="iconfont weixin" style="color:#11cd6e;">&#xe636;</div>
+					<div class="ctx">
+						<span>微信支付<i class="iconfont">&#xe60b;</i></span></span>
+						<span>推荐使用</span>
+					</div>
+					<div class="check chos iconfont"></div>
+				</div>
+			</div>
+			<button id="send">我要充值</button>
+		</div>
+	</div>
+<script type="text/javascript" src="../js/wycz.js"></script>
+</body>
+</html>

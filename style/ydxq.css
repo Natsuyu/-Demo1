@@ -1,0 +1,44 @@
+.iconfont {
+  color: #FF6C44; }
+
+.head {
+  padding: 0 5px 0 5px;
+  box-sizing: border-box; }
+
+@media screen and (max-width: 320px) {
+  .box {
+    font-size: 0.9rem; } }
+.content .box .ctxblock {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc; }
+.content .box .til {
+  height: 40px; }
+  .content .box .til span {
+    display: inline-block;
+    height: 100%;
+    line-height: 40px;
+    float: left; }
+  .content .box .til span:last-child {
+    margin-left: 5px; }
+.content .box .item {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  float: left; }
+.content .box .feature .item span {
+  color: #ccc;
+  margin-right: 10px; }
+.content .box .faci .item {
+  box-sizing: border-box;
+  width: 50%;
+  text-align: left; }
+  .content .box .faci .item span:last-child {
+    padding-left: 5px; }
+.content .box .faci .chosed > span {
+  color: #FF6C44; }
+.content .box .faci .chos > span {
+  color: #ccc; }
+  .content .box .faci .chos > span:last-child {
+    text-decoration: line-through; }
+
+/*# sourceMappingURL=ydxq.css.map */

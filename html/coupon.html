@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Coupon</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"/>
+	<link rel="stylesheet" type="text/css" href="../style/reset.css">
+	<link rel="stylesheet" type="text/css" href="../style/coupon.css">
+	
+<body>
+	<div class="head"><span id="back" class="back iconfont">&#xe65b;</span><span class="title">优惠券</span></div>
+	<div class="col">
+		<span class="item" data-num="0"><span class="selected">未使用(1)</span></span>
+		<span class="item" data-num="1"><span >已过期(1)</span></span>
+		<span class="item" data-num="2"><span >已使用(1)</span></span>
+	</div>
+	<div class="content show" title="unused">
+		<div class="coupon">
+			<div class="box">
+				<span class="cost">
+				<span class="price">￥<span>10</span></span>
+				<span class="kind"><span>全品类</span><span>满100元可用</span></span>
+				</span>
+				<span class="detail iconfont">&#xe605;</span>
+			</div>
+			<div class="date">
+				<div class="date-head">
+					<span>限平台1</span>
+					<span class="scroll iconfont" data-flag=true>&#xe603;</span>
+					<span>有效期 2016-1-12</span>
+				</div>
+				<div class="de-date">限平台：老杨客服端</div>
+			</div>
+		</div>
+	</div>
+	<div class="content hide" title="exceed">
+		<div class="coupon">
+			<div class="box gq">
+				<span class="cost">
+				<!-- <span>10</span><span>全品类</span> -->
+				<!-- <img src="../image/price.jpg" alt="" class="price"> -->
+				<!-- <img src="../image/kind.jpg" class="kind"> -->
+				<span class="price">￥<span>10</span></span>
+				<span class="kind"><span>全品类</span><span>满100元可用</span></span>
+				</span>
+				<span class="detail iconfont">&#xe605;</span>
+			</div>
+			<div class="date">
+				<div class="date-head">
+					<span>限平台2</span>
+					<span class="scroll iconfont" data-flag=true>&#xe603;</span>
+					<span>有效期 2016-1-12</span>
+				</div>
+				<div class="de-date">限平台：老杨客服端</div>
+			</div>
+		</div>
+	</div>
+	<div class="content hide" title="used">
+		<div class="coupon">
+			<div class="box sy">
+				<span class="cost">
+				<span class="price">￥<span>10</span></span>
+				<span class="kind"><span>全品类</span><span>满100元可用</span></span>
+				</span>
+				<span class="detail iconfont">&#xe605;</span>
+			</div>
+			<div class="date">
+				<div class="date-head">
+					<span>限平台3</span>
+					<span class="scroll iconfont" data-flag=true>&#xe603;</span>
+					<span>有效期 2016-1-12</span></div>
+				<div class="de-date">限平台：老杨客服端</div>
+			</div>
+		</div>
+	</div>
+<script type="text/javascript" src="../js/coupon.js"></script>
+</head>
+</body>
+</html>

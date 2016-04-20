@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url("iconfont.eot");
+  /* IE9*/
+  src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("iconfont.woff") format("woff"), url("iconfont.ttf") format("truetype"), url("iconfont.svg#iconfont") format("svg");
+  /* iOS 4.1- */ }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: pointer; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #d8d8d8;
+  font-size: 16px; }
+
+.head, .content {
+  width: 100%;
+  margin: 1px 0 1px 0;
+  position: relative;
+  text-align: center;
+  background-color: #fff; }
+
+.head {
+  height: 67px; }
+  .head .title, .head .de-title {
+    font-size: 1.2em; }
+  .head .title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -60px;
+    width: 120px;
+    height: 100%;
+    line-height: 67px; }
+  .head .back {
+    position: absolute;
+    color: #FF6C44;
+    font-size: 30px;
+    width: 40px;
+    height: 100%;
+    line-height: 67px;
+    top: 0;
+    left: 5px; }
+  .head .de-title {
+    float: left; }
+  .head .de-back, .head .share {
+    color: #FF6C44;
+    font-size: 25px;
+    width: 40px; }
+  .head .de-back {
+    float: left; }
+  .head .share {
+    float: right; }
+  .head span {
+    display: inline-block;
+    height: 100%;
+    line-height: 67px; }
+
+.content {
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px; }
+  .content .box {
+    width: 100%; }
+    .content .box .content {
+      padding: 0;
+      padding-bottom: 15px;
+      text-align: left; }
+    .content .box img {
+      width: 100%;
+      margin: 10px 0 10px 0; }
+
+/*# sourceMappingURL=reset.css.map */

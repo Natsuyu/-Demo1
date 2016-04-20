@@ -1,0 +1,126 @@
+.head .back {
+  color: #ea8010; }
+.head .title {
+  color: #ea8010;
+  font-weight: bold; }
+
+@media screen and (max-width: 320px) {
+  .way > div {
+    font-size: 1rem; } }
+.content {
+  background-color: transparent;
+  padding: 15px 20px 15px 20px;
+  font-size: 1.2em; }
+  .content .lef {
+    width: 100%;
+    margin-bottom: 30px; }
+    .content .lef .lef-mo {
+      width: 100%;
+      text-align: left;
+      padding-left: 5px;
+      height: 50px; }
+      .content .lef .lef-mo span {
+        display: inline-block;
+        height: 100%;
+        line-height: 50px;
+        padding-left: 2px; }
+      .content .lef .lef-mo .money {
+        color: #ea8010; }
+    .content .lef .cot-item {
+      height: 50px; }
+      .content .lef .cot-item .item {
+        display: inline-block;
+        width: 30%;
+        margin: auto;
+        height: 100%;
+        line-height: 50px;
+        border-radius: 2px;
+        color: #ccc;
+        background-color: #fff;
+        cursor: pointer; }
+    .content .lef input {
+      margin-top: 10px;
+      width: 92%;
+      height: 50px;
+      line-height: 50px;
+      border-radius: 3px;
+      border: 0px;
+      box-sizing: border-box;
+      padding: 15px;
+      font-size: 15px; }
+      .content .lef input:focus {
+        outline: none; }
+  .content .choz {
+    width: 100%; }
+    .content .choz .title {
+      text-align: left;
+      padding-left: 5px;
+      margin-bottom: 10px; }
+    .content .choz .way {
+      padding: 0px 15px;
+      box-sizing: border-box;
+      background-color: #fff;
+      border-radius: 5px; }
+      .content .choz .way > div {
+        padding: 5px 0 0;
+        height: 64px;
+        line-height: 64px;
+        display: inline-block;
+        box-sizing: border-box;
+        width: 100%; }
+        .content .choz .way > div div {
+          background-color: #FFF;
+          float: left;
+          height: 100%; }
+        .content .choz .way > div .iconfont {
+          width: 15%;
+          font-size: 25px; }
+        .content .choz .way > div .ctx {
+          width: 70%; }
+          .content .choz .way > div .ctx span {
+            text-align: left;
+            display: inline-block;
+            line-height: 32px;
+            height: 50%;
+            width: 100%;
+            float: left;
+            position: relative; }
+            .content .choz .way > div .ctx span i {
+              color: #ea8010;
+              margin-left: 10px;
+              display: inline-block;
+              width: 30px;
+              height: 100%;
+              line-height: 32px;
+              position: absolute;
+              top: 0;
+              left: 50%;
+              margin-left: -15px; }
+          .content .choz .way > div .ctx span:last-child {
+            color: #ccc;
+            font-size: 0.9rem; }
+        .content .choz .way > div .chos {
+          color: #ccc; }
+        .content .choz .way > div .chosed {
+          color: #ea8010; }
+        .content .choz .way > div > div:last-child {
+          border-radius: 50%; }
+      .content .choz .way > div:first-child {
+        border-bottom: 1px solid #ccc; }
+      .content .choz .way > div:last-child {
+        margin-top: -1px; }
+    .content .choz button {
+      font-size: 1.2rem;
+      margin-top: 40px;
+      width: 100%;
+      display: block;
+      height: 55px;
+      border-radius: 2px;
+      cursor: pointer;
+      border: 0;
+      color: #fff;
+      background-color: #ea8010; }
+      .content .choz button:focus {
+        outline: none; }
+
+/*# sourceMappingURL=wycz.css.map */

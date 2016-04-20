@@ -1,0 +1,155 @@
+$ora:#FF6C44;
+$yel:#ea8010;
+$stan-height: 50px;
+$pay-height: 64px;
+$btn-height: 55px;
+
+.head
+{
+	.back{color:$yel;}
+	.title
+	{
+		color:$yel;
+		font-weight: bold;
+	}
+}
+@media screen and (max-width:320px){
+	.way > div{font-size:1rem;}	
+}
+.content
+{
+	background-color: transparent;
+	padding:15px 20px 15px 20px;
+	font-size:1.2em;
+	.lef
+	{
+		width: 100%;
+		margin-bottom: 30px;
+		.lef-mo
+		{
+			width: 100%;
+			text-align: left;
+			padding-left:5px;
+			height: $stan-height;
+			span 
+			{
+				display: inline-block;
+				height: 100%; line-height:$stan-height;
+				padding-left:2px;
+			}
+			.money	
+			{
+				color:$yel;
+			}
+		}
+		.cot-item
+		{
+			height: $stan-height;
+			.item 
+			{
+				display: inline-block;
+				width: 30%;
+				margin:auto;
+				height: 100%; line-height:$stan-height;
+				border-radius:2px;
+				color:#ccc;
+				background-color: #fff;
+				cursor: pointer;
+			}
+		}
+		input 
+		{
+			margin-top:10px;
+			width: 92%;
+			height: $stan-height;line-height:$stan-height;
+			border-radius:3px;
+			border:0px;
+			box-sizing:border-box;
+			padding:15px;
+			font-size:15px;
+			&:focus
+			{
+				outline: none;
+			}
+		}
+	}
+	.choz
+	{	
+		width: 100%;
+		.title
+		{
+			text-align: left;
+			padding-left:5px;
+			margin-bottom: 10px;
+		}
+		.way
+		{
+			padding:0px 15px;
+			box-sizing:border-box;
+			background-color: #fff;
+			border-radius:5px;
+			& > div
+			{
+				padding:5px 0 0;
+				height: $pay-height;line-height:$pay-height;
+				display: inline-block;
+				box-sizing:border-box;
+				width: 100%;
+				div 
+				{
+					background-color: #FFF;
+					float:left;
+					height: 100%;
+				}
+				.iconfont
+				{
+					width: 15%;
+					font-size:25px;
+				}
+				.ctx
+				{
+					width: 70%;
+					span 
+					{
+						text-align: left;
+						display: inline-block;
+						line-height: $pay-height / 2;
+						height: 50%;
+						width: 100%;
+						float:left;
+						position:relative;
+						i 
+						{
+							color:$yel;
+							margin-left: 10px;
+							display: inline-block;
+							width: 30px;height:100%;
+							line-height: $pay-height / 2;
+							position: absolute;
+							top:0; left:50%; margin-left:-15px;
+						}
+					}
+					span:last-child{color:#ccc;font-size:0.9rem;}
+				}
+				.chos{color:#ccc;} .chosed{color:$yel;}
+				& > div:last-child
+				{
+					border-radius: 50%;
+				}
+			}
+			& > div:first-child{border-bottom:1px solid #ccc;}
+			& > div:last-child{margin-top:-1px;}
+		}
+		button{
+			font-size: 1.2rem;
+			margin-top: 40px;
+			width: 100%;display:block;
+			height: $btn-height;
+			border-radius:2px;
+			cursor: pointer;
+			border:0;
+			color:#fff; background-color: $yel;
+			&:focus{outline:none;}
+		}
+	}
+}

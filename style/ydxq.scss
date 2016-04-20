@@ -1,0 +1,68 @@
+$ora:#FF6C44;
+$head-hei:67px;
+$cont-hei:40px;
+.iconfont{color:$ora;}
+.head
+{
+	padding:0 5px 0 5px;
+	box-sizing:border-box;
+}
+@media screen and (max-width:320px){
+	.box 
+	{
+		font-size: 0.9rem;
+	}
+}
+.content
+{
+	.box 
+	{
+		.ctxblock
+		{
+			overflow: hidden;
+			border-bottom:1px solid #ccc;
+		}
+		.til 
+		{
+			height: $cont-hei;
+			span 
+			{
+				display: inline-block;
+				height: 100%; line-height:$cont-hei;
+				float:left;
+			}
+			span:last-child{margin-left:5px;}
+		}
+		.item
+		{
+			display: inline-block;
+			height: $cont-hei;line-height:$cont-hei;
+			float:left;
+		}
+		.feature{
+			.item span{
+				color:#ccc;
+				margin-right:10px;
+			}
+		}
+		.faci
+		{
+			.item
+			{
+				box-sizing:border-box;
+				width: 50%;
+				text-align: left;
+				& span:last-child{
+					padding-left:5px;
+				}
+			}
+			.chosed > span{color:$ora;}
+			.chos > span{
+				color:#ccc;
+				&:last-child{
+					text-decoration:line-through;
+				}
+			}
+		}
+	}
+}

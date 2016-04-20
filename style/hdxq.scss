@@ -1,0 +1,32 @@
+$da-hei:68px;
+$ora:#FF6C44;
+.content
+{
+	margin-top:10px;
+	.date
+	{
+		width: 100%;
+		height:$da-hei;
+		&>span 
+		{
+			height: 100%;
+			display: inline-block;
+			float:right;
+			line-height: $da-hei;
+			margin:0 5px 0 5px;
+			span 
+			{
+				display: inline-block;
+				height: 100%; line-height:$da-hei;
+			}
+			.focus
+			{
+				color:$ora;
+			}
+		}
+		&>span:first-child
+		{
+			float:left;
+		}
+	}
+}
